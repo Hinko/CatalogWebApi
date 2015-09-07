@@ -1,0 +1,92 @@
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\roslyn\csc.exe
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\roslyn\System.Collections.Immutable.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\roslyn\vbc.exe
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\roslyn\VBCSCompiler.exe
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\roslyn\VBCSCompiler.exe.config
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\HinkovWebApi.dll.config
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\HinkovWebApi.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\HinkovWebApi.pdb
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\Antlr3.Runtime.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\Microsoft.Web.Infrastructure.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\Newtonsoft.Json.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Net.Http.Formatting.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.Helpers.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.Http.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.Http.WebHost.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.Mvc.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.Optimization.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.Razor.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.WebPages.Deployment.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.WebPages.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.WebPages.Razor.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\WebGrease.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\Newtonsoft.Json.xml
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Net.Http.Formatting.xml
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.Helpers.xml
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.Http.xml
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.Http.WebHost.xml
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.Mvc.xml
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.Optimization.xml
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.Razor.xml
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.WebPages.xml
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.WebPages.Deployment.xml
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\System.Web.WebPages.Razor.xml
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\bin\Antlr3.Runtime.pdb
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\obj\Debug\HinkovWebApi.csprojResolveAssemblyReference.cache
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\obj\Debug\HinkovWebApi.dll
+E:\Projects\C# .NET projects\HinkovWebApi\HinkovWebApi\obj\Debug\HinkovWebApi.pdb
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\roslyn\csc.exe
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\roslyn\vbc.exe
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\HinkovWebApi.dll.config
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\HinkovWebApi.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\HinkovWebApi.pdb
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\Antlr3.Runtime.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\Newtonsoft.Json.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.Helpers.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.Http.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.Mvc.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.Optimization.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.Razor.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.WebPages.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\WebGrease.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\Newtonsoft.Json.xml
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.Helpers.xml
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.Http.xml
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.Mvc.xml
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.Optimization.xml
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.Razor.xml
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.WebPages.xml
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\bin\Antlr3.Runtime.pdb
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\obj\Debug\HinkovWebApi.csprojResolveAssemblyReference.cache
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\obj\Debug\HinkovWebApi.dll
+C:\Users\Terminal\Desktop\CatalogWebApi\HinkovWebApi\obj\Debug\HinkovWebApi.pdb
