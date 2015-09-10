@@ -3,7 +3,13 @@
     using HinkovWebApi.Models;
     using System;
     using System.Collections.Generic;
+    using System.IO;
+    using System.Net;
     using System.Web.Http;
+
+    using System.Linq;
+
+    using Newtonsoft.Json;
 
     public class CategoryController : ApiController
     {
@@ -22,53 +28,66 @@
 
         private List<Category> categories = new List<Category>();
 
+        private List<Movie> Movies = new List<Movie>();
+
         private Dictionary<string, Category> catalog = new Dictionary<string, Category>();
 
         public CategoryController()
         {
-            initCollection();
+            if (this.Movies.Count == 0)
+                loadMovies(Properties.Settings.Default.EndPoint);
         }
 
-        //public string Get(string id)
-        //{
-        //    return "value";
-        //}
-
-        public IHttpActionResult Post(string id)
+        [HttpPost]
+        public IHttpActionResult Post([FromBody]CategoryAccept category)
         {
-            if (this.catalog.ContainsKey(id))
-            {
-                return Ok(this.catalog[id]);
-            }
+            if (!this.ModelState.IsValid)
+                return this.BadRequest("Ian says Invalid Body :(");
 
-            return NotFound();
+            return  Ok(this.Movies.Where(m => m.Category.ToLower() == category.Category.ToLower()));
+
         }
 
-        private void initCollection()
+
+        private void loadMovies(string endPoint)
         {
-            for (int i = 0; i < this.categoryIds.Length; i++)
+            HttpWebRequest request = CreateWebRequest(endPoint);
+            List<Movie> allMovies;
+            using (var response = (HttpWebResponse)request.GetResponse())
             {
-                var currentCategory = new Category();
+                var responseValue = string.Empty;
 
-                currentCategory.Url = URL;
-                currentCategory.TmpData = TmpData;
-
-                var movieCount = random.Next(2, 10);
-
-                for (int j = 0; j < movieCount; j++)
+                if (response.StatusCode != HttpStatusCode.OK)
                 {
-                    var currentMovie = new Movie();
-
-                    currentMovie.Actor = this.actorNames[j % this.actorNames.Length];
-                    currentMovie.Title = this.titles[j % this.titles.Length];
-                    currentMovie.Year = this.year[j % this.year.Length];
-
-                    currentCategory.Movies.Add(currentMovie);
+                    string message = String.Format("POST failed. Received HTTP {0}", response.StatusCode);
+                    throw new ApplicationException(message);
                 }
 
-                this.catalog[this.categoryIds[i]] = currentCategory;
 
+
+                // grab the response  
+                using (var responseStream = response.GetResponseStream())
+                {
+                    using (var reader = new StreamReader(responseStream))
+                    {
+                        responseValue = reader.ReadToEnd();
+                        allMovies = JsonConvert.DeserializeObject<List<Movie>>(responseValue);
+                    }
+                }
             }
+
+            this.Movies.AddRange(allMovies);
+        }
+
+        private static HttpWebRequest CreateWebRequest(string endPoint)
+        {
+            var request = (HttpWebRequest)WebRequest.Create(endPoint);
+
+            request.Method = "GET";
+            request.ContentLength = 0;
+            request.ContentType = "text/json";
+
+            return request;
         }
     }
 }
